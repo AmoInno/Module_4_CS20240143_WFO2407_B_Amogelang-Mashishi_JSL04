@@ -6,8 +6,8 @@
 
 let userPreference = "Sugar-free"; // Possible values: 'Regular', 'Sugar-free', or undefined
 
-let preferredEnergyDrink = userPreference ? userPreference : "Regular";
-console.log(`${preferredEnergyDrink}`);
+let flavorSelection = userPreference ? userPreference : "Regular";
+console.log(`${flavorSelection}`);
 
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
@@ -15,16 +15,18 @@ console.log(`${preferredEnergyDrink}`);
 
 let cansLeft = 7; // Any number of cans
 
-let stockTake = cansLeft >= 5 ? "We're stocked!" : "Time to restock!";
-console.log(`${stockTake}`);
+let checkStock = cansLeft >= 5 ? "We're stocked!" : "Time to restock!";
+console.log(`${checkStock}`);
 
 
 // #### Challenge 3: Workout Intensity
 // Based on the current heart rate, determine if the user should drink a Monster Energy drink to boost their workout. 
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
-let heartRate = 95; // Current heart rate in bpm
-console.log(`'}`);
+let heartRate = 50; // Current heart rate in bpm
+
+let workoutIntensity = heartRate < 100 ? "Boost needed!" : "Energy levels are high!"
+console.log(`${workoutIntensity}`);
 
 
 // #### Challenge 4: Temperature Suitability
