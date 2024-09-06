@@ -25,7 +25,7 @@ console.log(`${checkStock}`);
 
 let heartRate = 50; // Current heart rate in bpm
 
-let workoutIntensity = heartRate < 100 ? "Boost needed!" : "Energy levels are high!"
+let workoutIntensity = heartRate < 100 ? "Boost needed!" : "Energy levels are high!";
 console.log(`${workoutIntensity}`);
 
 
@@ -34,7 +34,9 @@ console.log(`${workoutIntensity}`);
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
 let currentTemp = 4; // Current temperature in °C
-console.log(``);
+
+let temperature = currentTemp <= 5 ? "Chilled to perfection!" : "Needs a cooler!";
+console.log(`${temperature}`);
 
 
 // #### Challenge 5: Late Night Coding Session
@@ -43,13 +45,10 @@ console.log(``);
 // otherwise, print "Better stick to water."
 
 // Define the current hour in 24-hour format
-let currentHour = 22; 
+let currentHour = 24; 
 
-// Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
-// If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
-// Otherwise, print "Better stick to water."
-
-
+let drinkEnergyDrink = currentHour >= 7 && currentHour <= 24 ? "Unleash the beast!" : "Better stick to water.";
+console.log(`${drinkEnergyDrink}`);
 
 
 
